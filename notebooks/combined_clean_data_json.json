@@ -1,0 +1,761 @@
+{
+    "name": "NYC FY2025 Budget ($ Billions)",
+    "children": [
+        {
+            "name": "EXPENDITURE",
+            "children": [
+                {
+                    "name": "OTHER",
+                    "children": [
+                        {
+                            "name": "REMAINDER INCLUDING MISCELLANEOUS",
+                            "value": 12.05
+                        },
+                        {
+                            "name": "DEPARTMENT OF TRANSPORTATION",
+                            "value": 2.8
+                        },
+                        {
+                            "name": "DEPARTMENT OF CORRECTION",
+                            "value": 2.78
+                        },
+                        {
+                            "name": "DEPARTMENT OF CITYWIDE ADMINISTRATIVE SERVICES",
+                            "value": 2.66
+                        },
+                        {
+                            "name": "DEPARTMENT OF ENVIRONMENTAL PROTECTION",
+                            "value": 2.11
+                        },
+                        {
+                            "name": "CITY UNIVERSITY OF NEW YORK",
+                            "value": 1.58
+                        },
+                        {
+                            "name": "DEPARTMENT OF PARKS AND RECREATION",
+                            "value": 1.49
+                        },
+                        {
+                            "name": "DEPARTMENT OF YOUTH AND COMMUNITY DEVELOPMENT",
+                            "value": 1.36
+                        },
+                        {
+                            "name": "DEPARTMENT OF INFORMATION TECHNOLOGY AND TELECOMMUNICATIONS",
+                            "value": 1.09
+                        },
+                        {
+                            "name": "DEPARTMENT FOR THE AGING",
+                            "value": 0.53
+                        },
+                        {
+                            "name": "DEPARTMENT OF CULTURAL AFFAIRS",
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "name": "DEPARTMENT OF EDUCATION",
+                    "children": [
+                        {
+                            "name": "GE INSTR & SCH LEADERSHIP - EMPLOYEES",
+                            "value": 7.44
+                        },
+                        {
+                            "name": "FRINGE BENEFITS - EMPLOYEES",
+                            "value": 3.9
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 3.55
+                        },
+                        {
+                            "name": "CHARTER SCHOOLS",
+                            "value": 3.15
+                        },
+                        {
+                            "name": "SE INSTR & SCH LEADERSHIP - EMPLOYEES",
+                            "value": 2.41
+                        },
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 2.23
+                        },
+                        {
+                            "name": "PUPIL TRANSPORTATION - VENDORS/EQUIPMENT",
+                            "value": 1.72
+                        },
+                        {
+                            "name": "CONTRACT SCHOOLS/FOSTER/CH 683 PMTS",
+                            "value": 1.55
+                        },
+                        {
+                            "name": "CATEGORICAL PROGRAMS - VENDORS/EQUIPMENT",
+                            "value": 1.47
+                        },
+                        {
+                            "name": "CW SE INSTR & SCHL LEADERSHIP - EMPLOYEES",
+                            "value": 1.42
+                        },
+                        {
+                            "name": "SCHOOL FACILITIES - VENDORS/EQUIPMENT",
+                            "value": 1.26
+                        },
+                        {
+                            "name": "CATEGORICAL PROGRAMS - EMPLOYEES",
+                            "value": 1.2
+                        },
+                        {
+                            "name": "UNIVERSAL PRE-K - VENDORS/EQUIPMENT",
+                            "value": 0.95
+                        },
+                        {
+                            "name": "SE PRE-K CONTRACT PMTS - VENDORS/EQUIPMENT",
+                            "value": 0.93
+                        },
+                        {
+                            "name": "GE INSTR & SCH LEADERSHIP - VENDORS/EQUIPMENT",
+                            "value": 0.88
+                        },
+                        {
+                            "name": "ENERGY AND LEASES - VENDORS/EQUIPMENT",
+                            "value": 0.75
+                        },
+                        {
+                            "name": "UNIVERSAL PRE-K - EMPLOYEES",
+                            "value": 0.72
+                        },
+                        {
+                            "name": "EARLY CHILDHOOD PROGRAMS - VENDORS/EQUIPMENT",
+                            "value": 0.51
+                        },
+                        {
+                            "name": "SE INSTRUCTIONAL SUPPORT - EMPLOYEES",
+                            "value": 0.43
+                        },
+                        {
+                            "name": "SE INSTRUCTIONAL SUPPORT - VENDORS/EQUIPMENT",
+                            "value": 0.42
+                        },
+                        {
+                            "name": "SCHOOL SAFETY - VENDORS/EQUIPMENT",
+                            "value": 0.37
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.34
+                        },
+                        {
+                            "name": "SCHOOL FOOD SERVICES - VENDORS/EQUIPMENT",
+                            "value": 0.32
+                        },
+                        {
+                            "name": "SCHOOL FOOD SERVICES - EMPLOYEES",
+                            "value": 0.29
+                        },
+                        {
+                            "name": "SCHOOL SUPPORT ORGANIZATION",
+                            "value": 0.25
+                        },
+                        {
+                            "name": "N - EMPLOYEES& FIT PMTS - VENDORS/EQUIPMENT",
+                            "value": 0.18
+                        },
+                        {
+                            "name": "SCHOOL FACILITIES - EMPLOYEES",
+                            "value": 0.18
+                        },
+                        {
+                            "name": "CENTRAL ADMINISTRATION - VENDORS/EQUIPMENT",
+                            "value": 0.17
+                        },
+                        {
+                            "name": "CENTRAL ADMINISTRATION - EMPLOYEES",
+                            "value": 0.12
+                        },
+                        {
+                            "name": "CW SE INSTR & SCHL LEADERSHIP - VENDORS/EQUIPMENT",
+                            "value": 0.06
+                        },
+                        {
+                            "name": "EARLY CHILDHOOD PROGRAMS - EMPLOYEES",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "SCHOOL SUPPORT ORGANIZATION - VENDORS/EQUIPMENT",
+                            "value": 0.02
+                        },
+                        {
+                            "name": "PUPIL TRANSPORTATION - EMPLOYEES",
+                            "value": 0.01
+                        },
+                        {
+                            "name": "SE INSTR & SCH LEADERSHIP - VENDORS/EQUIPMENT",
+                            "value": 0.01
+                        }
+                    ]
+                },
+                {
+                    "name": "DEPARTMENT OF SOCIAL SERVICES",
+                    "children": [
+                        {
+                            "name": "MEDICAL ASSISTANCE - VENDORS/EQUIPMENT",
+                            "value": 6.36
+                        },
+                        {
+                            "name": "PUBLIC ASSISTANCE - VENDORS/EQUIPMENT",
+                            "value": 3.85
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.45
+                        },
+                        {
+                            "name": "ADULT SERVICES - VENDORS/EQUIPMENT",
+                            "value": 0.44
+                        },
+                        {
+                            "name": "ADMINISTRATION - VENDORS/EQUIPMENT",
+                            "value": 0.44
+                        },
+                        {
+                            "name": "PUBLIC ASSISTANCE",
+                            "value": 0.35
+                        },
+                        {
+                            "name": "ADMINISTRATION",
+                            "value": 0.34
+                        },
+                        {
+                            "name": "LEGAL SERVICES - VENDORS/EQUIPMENT",
+                            "value": 0.27
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 0.17
+                        },
+                        {
+                            "name": "ADULT SERVICES",
+                            "value": 0.11
+                        },
+                        {
+                            "name": "MEDICAL ASSISTANCE",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "FAIR FARES - VENDORS/EQUIPMENT",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "HOME ENERGY ASSISTANCE - VENDORS/EQUIPMENT",
+                            "value": 0.06
+                        },
+                        {
+                            "name": "EMERGENCY FOOD - VENDORS/EQUIPMENT",
+                            "value": 0.06
+                        },
+                        {
+                            "name": "DOMESTIC VIOLENCE SERVICES - VENDORS/EQUIPMENT",
+                            "value": 0.05
+                        },
+                        {
+                            "name": "CHILD SUPPORT SERVICES - EMPLOYEES",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "CHILD SUPPORT SERVICES - VENDORS/EQUIPMENT",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "DOMESTIC VIOLENCE SERVICES - EMPLOYEES",
+                            "value": 0.02
+                        }
+                    ]
+                },
+                {
+                    "name": "DEPARTMENT OF HOMELESS SERVICES",
+                    "children": [
+                        {
+                            "name": "SHELTER INTAKE AND PROGRAM - VENDORS/EQUIPMENT",
+                            "value": 3.47
+                        },
+                        {
+                            "name": "STREET PROGRAMS - VENDORS/EQUIPMENT",
+                            "value": 0.34
+                        },
+                        {
+                            "name": "SHELTER INTAKE AND PROGRAM - EMPLOYEES",
+                            "value": 0.13
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.07
+                        },
+                        {
+                            "name": "ADMINISTRATION - EMPLOYEES",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "ADMINISTRATION - VENDORS/EQUIPMENT",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "STREET PROGRAMS - EMPLOYEES",
+                            "value": 0.01
+                        }
+                    ]
+                },
+                {
+                    "name": "HEALTH AND HOSPITALS CORPORATION",
+                    "children": [
+                        {
+                            "name": "LUMP SUM",
+                            "value": 3.19
+                        },
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 0.28
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.06
+                        }
+                    ]
+                },
+                {
+                    "name": "POLICE DEPARTMENT",
+                    "children": [
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 3.06
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 2.73
+                        },
+                        {
+                            "name": "OPERATIONS",
+                            "value": 2.06
+                        },
+                        {
+                            "name": "PATROL - EMPLOYEES",
+                            "value": 1.75
+                        },
+                        {
+                            "name": "EXECUTIVE MANAGEMENT",
+                            "value": 0.42
+                        },
+                        {
+                            "name": "ADMINISTRATION - VENDORS/EQUIPMENT",
+                            "value": 0.42
+                        },
+                        {
+                            "name": "ADMINISTRATION-PERSONNEL",
+                            "value": 0.31
+                        },
+                        {
+                            "name": "SCHOOL SAFETY- P.S.",
+                            "value": 0.29
+                        },
+                        {
+                            "name": "TRANSIT POLICE - EMPLOYEES",
+                            "value": 0.29
+                        },
+                        {
+                            "name": "INTELLIGENCE AND COUNTERTERRORISM - EMPLOYEES",
+                            "value": 0.25
+                        },
+                        {
+                            "name": "HOUSING POLICE - EMPLOYEES",
+                            "value": 0.23
+                        },
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "TRAFFIC ENFORCEMENT",
+                            "value": 0.18
+                        },
+                        {
+                            "name": "COMMUNICATIONS - EMPLOYEES",
+                            "value": 0.11
+                        },
+                        {
+                            "name": "EXECUTIVE MANAGEMENT - VENDORS/EQUIPMENT",
+                            "value": 0.11
+                        },
+                        {
+                            "name": "OPERATIONS - VENDORS/EQUIPMENT",
+                            "value": 0.09
+                        },
+                        {
+                            "name": "CRIMINAL JUSTICE",
+                            "value": 0.07
+                        },
+                        {
+                            "name": "COMMUNICATIONS - VENDORS/EQUIPMENT",
+                            "value": 0.06
+                        },
+                        {
+                            "name": "INTELLIGENCE AND COUNTERTERRORISM - VENDORS/EQUIPMENT",
+                            "value": 0.01
+                        },
+                        {
+                            "name": "SCHOOL SAFETY - VENDORS/EQUIPMENT",
+                            "value": 0.01
+                        },
+                        {
+                            "name": "TRAFFIC ENFORCEMENT - VENDORS/EQUIPMENT",
+                            "value": 0.01
+                        }
+                    ]
+                },
+                {
+                    "name": "FIRE DEPARTMENT",
+                    "children": [
+                        {
+                            "name": "FIRE EXTING AND EMERG RESP",
+                            "value": 1.79
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 1.68
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 1.12
+                        },
+                        {
+                            "name": "EMERGENCY MEDICAL SERVICES - EMPLOYEES",
+                            "value": 0.39
+                        },
+                        {
+                            "name": "EXECUTIVE ADMIN - VENDORS/EQUIPMENT",
+                            "value": 0.28
+                        },
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 0.19
+                        },
+                        {
+                            "name": "EXECUTIVE ADMINISTRATIVE",
+                            "value": 0.14
+                        },
+                        {
+                            "name": "FIRE EXTING & RESP - VENDORS/EQUIPMENT",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "EMERGENCY MEDICAL SERV - VENDORS/EQUIPMENT",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "FIRE PREVENTION",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "FIRE INVESTIGATION",
+                            "value": 0.02
+                        }
+                    ]
+                },
+                {
+                    "name": "ADMINISTRATION FOR CHILDRENS SERVICES",
+                    "children": [
+                        {
+                            "name": "CHILD WELFARE - VENDORS/EQUIPMENT",
+                            "value": 1.24
+                        },
+                        {
+                            "name": "HEADSTART/DAYCARE - VENDORS/EQUIPMENT",
+                            "value": 1.0
+                        },
+                        {
+                            "name": "PERSONAL SERVICES",
+                            "value": 0.39
+                        },
+                        {
+                            "name": "ADOPTION SUBSIDY - VENDORS/EQUIPMENT",
+                            "value": 0.25
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.25
+                        },
+                        {
+                            "name": "JUVENILE JUSTICE - VENDORS/EQUIPMENT",
+                            "value": 0.17
+                        },
+                        {
+                            "name": "OTHER THAN PERSONAL SERVICES",
+                            "value": 0.13
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "ADMINISTRATIVE - EMPLOYEES",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "JUVENILE JUSTICE - EMPLOYEES",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "COMMITTEE ON SPECIAL EDUCATION",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "JUVENILE JUSTICE - OCFS PAYMENTS",
+                            "value": 0.02
+                        },
+                        {
+                            "name": "HEADSTART and DAYCARE - EMPLOYEES",
+                            "value": 0.02
+                        }
+                    ]
+                },
+                {
+                    "name": "HOUSING PRESERVATION AND DEVELOPMENT",
+                    "children": [
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 0.99
+                        },
+                        {
+                            "name": "RENTAL SUBSIDY PROGRAMS - VENDORS/EQUIPMENT",
+                            "value": 0.74
+                        },
+                        {
+                            "name": "EMERGENCY SHELTER OPERATIONS",
+                            "value": 0.45
+                        },
+                        {
+                            "name": "CITY ASSISTANCE TO NYC HOUSING AUTHORITY",
+                            "value": 0.38
+                        },
+                        {
+                            "name": "OFFICE OF HOUSING PRESERVATION",
+                            "value": 0.16
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "OFFICE OF ADMINISTRATION",
+                            "value": 0.06
+                        },
+                        {
+                            "name": "OFFICE OF DEVELOPMENT - VENDORS/EQUIPMENT",
+                            "value": 0.06
+                        },
+                        {
+                            "name": "OFFICE OF DEVELOPMENT",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "HOUSING MAINTENANCE AND SALES",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "RENTAL SUBSIDY PROGRAMS - EMPLOYEES",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "OFFICE OF ADMINISTRATION - VENDORS/EQUIPMENT",
+                            "value": 0.02
+                        },
+                        {
+                            "name": "HOUSING MANAGEMENT AND SALES",
+                            "value": 0.02
+                        }
+                    ]
+                },
+                {
+                    "name": "DEPARTMENT OF SANITATION",
+                    "children": [
+                        {
+                            "name": "CLEANING & COLLECTION",
+                            "value": 0.89
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.59
+                        },
+                        {
+                            "name": "WASTE DISPOSAL - VENDORS/EQUIPMENT",
+                            "value": 0.56
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 0.32
+                        },
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 0.27
+                        },
+                        {
+                            "name": "EXEC & ADMINISTRATIVE - VENDORS/EQUIPMENT",
+                            "value": 0.13
+                        },
+                        {
+                            "name": "EXECUTIVE ADMINISTRATIVE",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "BUREAU OF MOTOR EQUIP",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "SNOW BUDGET - EMPLOYEES",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "WASTE DISPOSAL",
+                            "value": 0.04
+                        },
+                        {
+                            "name": "MOTOR EQUIPMENT - VENDORS/EQUIPMENT",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "BUILDING MANAGEMENT",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "CLEANING & COLLECTION - VENDORS/EQUIPMENT",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "SNOW - VENDORS/EQUIPMENT",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "BUILDING MANAGEMENT - VENDORS/EQUIPMENT",
+                            "value": 0.01
+                        }
+                    ]
+                },
+                {
+                    "name": "DEPARTMENT OF HEALTH AND MENTAL HYGIENE",
+                    "children": [
+                        {
+                            "name": "MENTAL HEALTH",
+                            "value": 0.54
+                        },
+                        {
+                            "name": "DISEASE CONTROL - VENDORS/EQUIPMENT",
+                            "value": 0.49
+                        },
+                        {
+                            "name": "EARLY INTERVENTION - VENDORS/EQUIPMENT",
+                            "value": 0.31
+                        },
+                        {
+                            "name": "FRINGE BENEFITS (ACA)",
+                            "value": 0.24
+                        },
+                        {
+                            "name": "HEALTH ADMINISTRATION - VENDORS/EQUIPMENT",
+                            "value": 0.19
+                        },
+                        {
+                            "name": "FAMILY & CHILD HEALTH - EMPLOYEES",
+                            "value": 0.14
+                        },
+                        {
+                            "name": "ALCOHOL&DRUG USE PREVENT, CARE TREATMENT",
+                            "value": 0.14
+                        },
+                        {
+                            "name": "DISEASE CONTROL - EMPLOYEES",
+                            "value": 0.13
+                        },
+                        {
+                            "name": "FAMILY & CHILD HEALTH - VENDORS/EQUIPMENT",
+                            "value": 0.13
+                        },
+                        {
+                            "name": "PENSION CONTRIBUTIONS (ACA)",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "CENTER FOR HLTH EQUITY&COMM WELLNESS-OTP",
+                            "value": 0.09
+                        },
+                        {
+                            "name": "ENVIRONMENTAL HEALTH - EMPLOYEES",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "OFFICE OF CHIEF MEDICAL EXAMINER - EMPLOYEES",
+                            "value": 0.08
+                        },
+                        {
+                            "name": "MENTAL HYGIENE MANAGEMENT SERVICES - VENDORS/EQUIPMENT",
+                            "value": 0.07
+                        },
+                        {
+                            "name": "HEALTH ADMINISTRATION - EMPLOYEES",
+                            "value": 0.07
+                        },
+                        {
+                            "name": "DEBT SERVICE (ACA)",
+                            "value": 0.06
+                        },
+                        {
+                            "name": "MENTAL HYGIENE MANAGEMENT SERVICES - EMPLOYEES",
+                            "value": 0.05
+                        },
+                        {
+                            "name": "ENVIRONMENTAL HEALTH - VENDORS/EQUIPMENT",
+                            "value": 0.05
+                        },
+                        {
+                            "name": "CENTER FOR HLTH EQUITY& COMM WELLNESS - EMPLOYEES",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "OFFICE OF CHIEF MEDICAL EXAMINER - VENDORS/EQUIPMENT",
+                            "value": 0.03
+                        },
+                        {
+                            "name": "EPIDEMIOLOGY - EMPLOYEES",
+                            "value": 0.02
+                        },
+                        {
+                            "name": "EARLY INTERVENTION - EMPLOYEES",
+                            "value": 0.02
+                        },
+                        {
+                            "name": "EPIDEMIOLOGY - VENDORS/EQUIPMENT",
+                            "value": 0.01
+                        },
+                        {
+                            "name": "DEVELOPMENT DISABILITY - VENDORS/EQUIPMENT",
+                            "value": 0.01
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "REVENUE",
+            "value": 120.68
+        }
+    ]
+}

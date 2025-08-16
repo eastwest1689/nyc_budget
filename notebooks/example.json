@@ -1,0 +1,28 @@
+{
+    "name": "NYC FY2025 Budget",
+    "children": [
+        {
+            "name": "EXPENDITURE",
+            "children": [
+                {
+                    "name": "DEPARTMENT OF EDUCATION",
+                    "children": [
+                        { "name": "PENSION CONTRIBUTIONS", "value": 3.25 },
+                        { "name": "FRINGE BENEFITS", "value": 5.75 }
+                    ]
+                },
+                {
+                    "name": "OTHER",
+                    "children": [
+                        { "name": "REMAINDER INCLUDING MISCELLANEOUS", "value": 9.25 },
+                        { "name": "DEPARTMENT OF TRANSPORTATION", "value": 3.38 }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "REVENUE", 
+            "value": 120
+        }
+    ]
+}

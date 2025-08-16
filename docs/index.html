@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC IN BILLIONS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #F5F5F5; /* Soft off-white for a clean, fresh backdrop */
+        }
+        #treemap {
+            width: 100%;
+            height: 100%;
+        }
+        /* Style breadcrumb for visibility */
+        .echarts-treemap-breadcrumb {
+            font-size: 14px !important;
+            padding: 10px !important;
+            background: #283593 !important; /* Dark blue for a bold, cool look */
+            color: #FFFFFF !important; /* White text for contrast */
+            font-family: sans-serif !important; 
+        }
+        /* Ensure consistent font and color on breadcrumb hover */
+        .echarts-treemap-breadcrumb .echarts-treemap-breadcrumb-item a,
+        .echarts-treemap-breadcrumb .echarts-treemap-breadcrumb-item a:hover {
+            font-family: sans-serif !important;
+            color: #FFFFFF !important;
+            font-size: 14px !important;
+            font-weight: 400 !important; /* Match loaded weight */
+            text-decoration: none !important; /* Remove underline on hover */
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+</head>
+<body>
+    <div id="treemap"></div>
+    <script>
+        // Initialize ECharts treemap
+        const treemapChart = echarts.init(document.getElementById('treemap'));
+
+        // Debounce function to limit resize event frequency
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func(...args), wait);
+            };
+        }
+
+        // Function to wrap text based on box width
+        function wrapText(params, maxCharsPerLine) {
+            const text = `${params.data.name}\n${Number(params.data.value).toFixed(2)}`;
+            const words = text.split(/\s+/);
+            const lines = [];
+            let currentLine = [];
+
+            words.forEach(word => {
+                const testLine = currentLine.concat(word).join(' ');
+                if (testLine.length <= maxCharsPerLine) {
+                    currentLine.push(word);
+                } else {
+                    if (currentLine.length > 0) lines.push(currentLine.join(' '));
+                    currentLine = [word];
+                }
+            });
+            if (currentLine.length > 0) lines.push(currentLine.join(' '));
+            return lines.join('\n');
+        }
+
+        // Fetch treemap data and set up the chart
+        fetch('combined_clean_data_json.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to load treemap data.');
+                }
+                return response.json();
+            })
+            .then(treemapData => {
+                const treemapOptions = {
+                    tooltip: { show: false }, // Disable hover/tap tooltip
+                    series: [{
+                        type: 'treemap',
+                        data: [treemapData], // Use fetched data
+                        leafDepth: 1, // Show only one level at a time
+                        roam: true, // Enable zoom/pan
+                        breadcrumb: {
+                            show: true, // Enable breadcrumb
+                            height: 30,
+                            itemStyle: { color: '#283593' }
+                        },
+                        label: {
+                            show: true,
+                            formatter: (params) => {
+                                // Hide value for root node
+                                if (params.data.name === 'NYC FY2025 BUDGET') {
+                                    return params.data.name;
+                                }
+                                // Wrap text for leaf nodes
+                                const value = params.data.value;
+                                if (value !== undefined && value !== null) {
+                                    const width = params.rect?.width || 100; // Fallback width with optional chaining
+                                    const maxCharsPerLine = Math.max(5, Math.floor(width / (12 * 0.5))); // Adjusted for Orbitron
+                                    return wrapText(params, maxCharsPerLine);
+                                }
+                                // Show only name for non-leaf nodes
+                                return params.data.name;
+                            },
+                            fontSize: 12,
+                            color: '#FFFFFF', // White text for contrast on vibrant colors
+                            fontFamily: 'sans-serif' 
+                        },
+                        upperLabel: { show: false }, // Hide parent node labels
+                        itemStyle: { borderColor: '#FFFFFF', borderWidth: 2 }, // White borders for clarity
+                        levels: [
+                            {
+                                itemStyle: { borderWidth: 0, gapWidth: 5 },
+                                color: ['#FF7043'] // Vibrant orange for root (rarely visible)
+                            },
+                            {
+                                color: ['#FF7043', '#EC407A'] // Vibrant orange and soft pink for EXPENDITURE, REVENUE
+                            },
+                            {
+                                color: ['#F4511E', '#42A5F5', '#AB47BC'] // Deep orange, bright blue, vibrant purple for agencies
+                            },
+                            {
+                                color: ['#FF5722', '#F06292', '#2196F3']
+                            }
+                        ]
+                    }]
+                };
+                treemapChart.setOption(treemapOptions);
+
+                // Trigger initial breadcrumb display
+                treemapChart.dispatchAction({
+                    type: 'treemapZoomToNode',
+                    name: 'NYC FY2025 BUDGET' // Targets the root node by name
+                });
+            })
+            .catch(error => {
+                console.error('Error loading treemap data:', error);
+                document.getElementById('treemap').innerHTML = '<p>Error loading data. Please check the console.</p>';
+            });
+
+        // Handle resize with debounce to optimize performance
+        window.addEventListener('resize', debounce(() => treemapChart.resize(), 200));
+    </script>
+</body>
+</html>
