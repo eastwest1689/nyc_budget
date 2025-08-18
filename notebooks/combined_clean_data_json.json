@@ -1,5 +1,5 @@
 {
-    "name": "NYC FY2025 Budget ($ Billions)",
+    "name": "NYC FY2025 BUDGET (BILLIONS OF DOLLARS)",
     "children": [
         {
             "name": "EXPENDITURE",
@@ -755,7 +755,746 @@
         },
         {
             "name": "REVENUE",
-            "value": 120.68
+            "children": [
+                {
+                    "name": "CHARGES FOR SERVICES",
+                    "children": [
+                        {
+                            "name": "GENERAL GOVERNMENTAL CHARGES",
+                            "value": 1.04
+                        },
+                        {
+                            "name": "INTRA-CITY CHARGES",
+                            "value": 2.25
+                        },
+                        {
+                            "name": "RENTAL INCOME",
+                            "value": 0.28
+                        },
+                        {
+                            "name": "WATER AND SEWER CHARGES",
+                            "value": 2.21
+                        }
+                    ]
+                },
+                {
+                    "name": "FEDERAL GRANTS AND CONTRACTS",
+                    "children": [
+                        {
+                            "name": "AGRICULTURE",
+                            "children": [
+                                {
+                                    "name": "COOPERATIVE FORESTRY ASSISTANCE",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "FOOD STAMP ADMINISTRATION",
+                                    "value": 0.11
+                                },
+                                {
+                                    "name": "FOOD STAMP EMPLOY.& TRAINING",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "FOOD STAMPS",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "FREE & REDUCED PRICE LUNCH",
+                                    "value": 0.42
+                                },
+                                {
+                                    "name": "SCHOOL BREAKFAST PROGRAM",
+                                    "value": 0.12
+                                },
+                                {
+                                    "name": "SCHOOL LUNCH",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "SUMMER FOOD SERVICE PROGRAM FOR CHILDREN",
+                                    "value": 0.03
+                                }
+                            ]
+                        },
+                        {
+                            "name": "EDUCATION",
+                            "children": [
+                                {
+                                    "name": "COMMUNITY LEARNING CENTERS",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "E H A PART-B",
+                                    "value": 0.34
+                                },
+                                {
+                                    "name": "ECIA TITLE I",
+                                    "value": 0.82
+                                },
+                                {
+                                    "name": "ESEA TITLE II IMPROVING TEACHER QUALITY",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "IMPACT AID",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "MAGNET SCHOOL MONEY-FEDERAL  F",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "SPECIAL GRANTS MISC",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "STUDENT SUPPORT AND ACADEMIC ENRICHMENT PROGRAM",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "TITLE I GRANTS TO LOCAL EDUCATIONAL AGCS",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "TITLE III-LEP &  IMMIGRATION STUDENT",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "VOCATIONAL EDUCATION",
+                                    "value": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HEALTH AND HUMAN SERVICES",
+                            "children": [
+                                {
+                                    "name": "ADOPTION ASSISTANCE",
+                                    "value": 0.1
+                                },
+                                {
+                                    "name": "AIDS PREVENTION SURVEILLANCE",
+                                    "value": 0.05
+                                },
+                                {
+                                    "name": "CDC COLLABORATION WITH ACADEMIA TO STRENGTHEN PUBLIC HEALTH",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "CHILD CARE & DEVEL.BLOCK GRANT",
+                                    "value": 1.42
+                                },
+                                {
+                                    "name": "CHILD SUPPORT ADMINISTRATION",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "COMMUNITY SERVICE BLOCK GRANT",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "DAY CARE INSPECTIONS",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "ENDING THE HIV EPIDEMIC: A PLAN FOR AMERICA - RYAN WHITE HIV",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "EPIDEMIOLOGY AND LABORATORY CAPACITY FOR INFECTIOUS DISEASES",
+                                    "value": 0.13
+                                },
+                                {
+                                    "name": "FEDERAL CSS",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "FOSTER CARE TITLE IV-E",
+                                    "value": 0.09
+                                },
+                                {
+                                    "name": "FOSTER CARE TITLE IV-E PREVENTIVE SVCS",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "HEAD START GRANT",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "HOSPITAL PREPAREDNESS PROGRAM (HPP) AND PUBLIC HEALTH EMERGE",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "IMMUNIZATION PROGRAM",
+                                    "value": 0.09
+                                },
+                                {
+                                    "name": "INDEPENDENT LIVING",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "LOW-INCOME HOME ENERGY ASSISTANCE",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "MEDICAL ASSISTANCE PROGRAM",
+                                    "value": 0.39
+                                },
+                                {
+                                    "name": "NON-SEFA FEDERAL CONTRACTS-HEALTH",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "NUTRITION SERVICES INCENTIVE PROGRAM",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "OCCUPATIONAL SAFETY AND HEALTH PROGRAM",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "PROMOTING SAFE AND STABLE FAMILIES",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "RYAN WHITE HIV EMERGCY RELIEF",
+                                    "value": 0.09
+                                },
+                                {
+                                    "name": "SEFA FEDERAL CONTRACTS-HEALTH",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "SOC SERV BLK GRANT TITLEXX CHILD WELFARE",
+                                    "value": 0.13
+                                },
+                                {
+                                    "name": "SOC SERV BLOCK GRANT TITLE XX OTHER",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "SUBSTANCE ABUSE PREVENTION & TREATMENT",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "TANF - ADMINISTRATIVE EXPENSES",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "TANF - FRINGE BENEFITS",
+                                    "value": 0.14
+                                },
+                                {
+                                    "name": "TANF EMPLOYMENT ADMINISTRATION",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "TANF--EMERGENCY ASSISTANCE",
+                                    "value": 0.18
+                                },
+                                {
+                                    "name": "TANF-EAF SET ASIDE FOR CHILD WELFARE",
+                                    "value": 0.08
+                                },
+                                {
+                                    "name": "TANF-SAFETY NET",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "TEMPORARY ASSISTANCE FOR NEEDY FAMILIES",
+                                    "value": 1.55
+                                },
+                                {
+                                    "name": "TITLE III, PART B: SUPPORTIVE SERVICES A",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "TITLE III, PART C: NUTRITION SERVICES",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "TITLE IV-E  -  PROTECTIVE SERVICES",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "TITLE IV-E -  FOSTER CARE ADMINISTRATION",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "TITLE XX SOC.SERV.BLOCK GRANT",
+                                    "value": 0.09
+                                },
+                                {
+                                    "name": "TUBERCULOSIS CONTROL PROGRAM",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "VENEREAL DISEASE CONTROL",
+                                    "value": 0.02
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HOUSING AND URBAN DEVELOPMENT",
+                            "children": [
+                                {
+                                    "name": "CDBG-DISASTER RECOVERY",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "COMMUNITY DEVELOPMENT BLOCK GRANTS",
+                                    "value": 0.4
+                                },
+                                {
+                                    "name": "CONTINUUM OF CARE - SHELTER PLUS CARE",
+                                    "value": 0.05
+                                },
+                                {
+                                    "name": "CONTINUUM OF CARE PROGRAM",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "EMERGENCY SHELTER GRANTS PROGRAM",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "HOME INVESTMENT PARTNERSHIP",
+                                    "value": 0.2
+                                },
+                                {
+                                    "name": "HOUSING OPPORTUNITIES FOR PEOPLE WITH AI",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "LOWER INCOME HOUSING ASSISTANCE PROGRAM",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "SECTION 8 ADMIN FEES - MODERATE SRO",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "SECTION 8 ADMIN FEES - VOUCHER",
+                                    "value": 0.76
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LABOR",
+                            "children": [
+                                {
+                                    "name": "W.I.A.  DISLOCATED WORKERS",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "W.I.A. IN SCHOOL YOUTH",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "W.I.A. OUT OF SCHOOL YOUTH",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "WORKFORCE INVESTMENT ACT - ADULT",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "WORKFORCE INVESTMENT ACT CENTRAL ADMINIS",
+                                    "value": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "OTHER",
+                            "value": 0.91
+                        },
+                        {
+                            "name": "TRANSPORTATION",
+                            "children": [
+                                {
+                                    "name": "FEDERAL TRANSIT FORMULA GRANTS",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "FEDERAL TRANSIT GRANTS",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "HIGHWAY PLANNING AND CONSTRUCTION",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "INTERMODAL SURFACE TRANSPORT",
+                                    "value": 0.05
+                                },
+                                {
+                                    "name": "UMTA MASS TRANSIT STUDIES",
+                                    "value": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "TREASURY",
+                            "children": [
+                                {
+                                    "name": "ASSET FORFEITURES",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "BUILD AMERICA BONDS REIMBURSEMENT",
+                                    "value": 0.16
+                                },
+                                {
+                                    "name": "CORONAVIRUS STATE AND LOCAL FISCAL RECOVERY FUNDS",
+                                    "value": 0.55
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "FINES",
+                    "value": 1.41
+                },
+                {
+                    "name": "OTHER",
+                    "value": 4.34
+                },
+                {
+                    "name": "STATE GRANTS AND CONTRACTS",
+                    "children": [
+                        {
+                            "name": "CRIMINAL JUSTICE",
+                            "children": [
+                                {
+                                    "name": "AID TO PROSECUTION",
+                                    "value": 0.11
+                                },
+                                {
+                                    "name": "CRIMES AGAINST REVENUES",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "FORFEITURE LAW ENFORCEMENT",
+                                    "value": 0.03
+                                }
+                            ]
+                        },
+                        {
+                            "name": "EDUCATION",
+                            "children": [
+                                {
+                                    "name": "ACADEMIC IMPROVEMENT",
+                                    "value": 0.04
+                                },
+                                {
+                                    "name": "BUILDING AID FOR LEASES",
+                                    "value": 0.04
+                                },
+                                {
+                                    "name": "CHAPTER 721 REIMBURSEMENT    C",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "CHARTER SCHOOLS",
+                                    "value": 0.32
+                                },
+                                {
+                                    "name": "COMMUNITY COLLEGE RENTS",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "DATA PROCESSING PROGRAM",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "DEAF AND BLIND REIMBURSEMENT",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "EDUCATION RELATED SUPPORT SVCS",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "EDUCATION TECHNOLOGY INCENTIVE",
+                                    "value": 0.08
+                                },
+                                {
+                                    "name": "EMPLOYMENT PREP. EDUC.",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "FOUNDATION AID",
+                                    "value": 9.91
+                                },
+                                {
+                                    "name": "HANDICAP.PUPIL-SUMMER SCHOOL",
+                                    "value": 0.14
+                                },
+                                {
+                                    "name": "HARDWARE AID",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "HIGH COST EXCESS COST AID",
+                                    "value": 0.25
+                                },
+                                {
+                                    "name": "LIBRARY MATERIALS",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "OCCUPATIONAL EDUCATION AID",
+                                    "value": 0.12
+                                },
+                                {
+                                    "name": "P.S. AID/TEXTBOOKS",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "PRE-KINDERGARTEN ADMIN COST",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "PRESCHOOL SPECIAL EDUCATION",
+                                    "value": 0.54
+                                },
+                                {
+                                    "name": "PRIVATE EXCESS COST AID",
+                                    "value": 0.17
+                                },
+                                {
+                                    "name": "SCA BASED BUILDING AID",
+                                    "value": 1.62
+                                },
+                                {
+                                    "name": "SCHOOL LUNCH",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "SOFTWARE AID",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "SPECIAL GRANTS-MISCELLANEOUS",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "STATE BREAKFAST REIMBURSEMENT",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "TEACHER CENTER PROGRAM",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "TEACHERS OF TOMORROW",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "TRANSPORTATION AID",
+                                    "value": 0.75
+                                },
+                                {
+                                    "name": "UNIVERSAL PRE-KINDERGARTEN",
+                                    "value": 0.55
+                                }
+                            ]
+                        },
+                        {
+                            "name": "HEALTH",
+                            "children": [
+                                {
+                                    "name": "CHILDREN AND FAMILY EMERGENCY SERVICES",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "EARLY INTERVENTION SERVICES",
+                                    "value": 0.18
+                                },
+                                {
+                                    "name": "PUBLIC HEALTH PRIORITIES",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "PUBLIC HEALTH-LOCAL ASSISTANCE",
+                                    "value": 0.15
+                                },
+                                {
+                                    "name": "SUPPORTED HOUSING 50M PROGRAM",
+                                    "value": 0.01
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MENTAL HEALTH",
+                            "children": [
+                                {
+                                    "name": "CHILDREN FAMILY SUPPORT STATE",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "COMMUNITY M HEALTH REINVEST",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "COMMUNITY SUPPORT SYSTEM",
+                                    "value": 0.02
+                                },
+                                {
+                                    "name": "INTENSIVE CASE MANAGEMENT",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "NYS- NY C INITIATIVE",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "STATE AID FOR  C.O.L.A.",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "STATE AID MENTAL HEALTH",
+                                    "value": 0.04
+                                },
+                                {
+                                    "name": "SUPPORTED HOUSING SERVICES",
+                                    "value": 0.02
+                                }
+                            ]
+                        },
+                        {
+                            "name": "OTHER",
+                            "value": 0.98
+                        },
+                        {
+                            "name": "SOCIAL SERVICES",
+                            "children": [
+                                {
+                                    "name": "100% STATE",
+                                    "value": 1.5
+                                },
+                                {
+                                    "name": "ADOPTION",
+                                    "value": 0.08
+                                },
+                                {
+                                    "name": "ADULT SHELTER CAP",
+                                    "value": 0.07
+                                },
+                                {
+                                    "name": "EMERGENCY ASSIST FOR ADULT",
+                                    "value": 0.03
+                                },
+                                {
+                                    "name": "FOSTER CARE BLOCK GRANT",
+                                    "value": 0.22
+                                },
+                                {
+                                    "name": "MEDICAID-HEALTH & MEDICAL CARE",
+                                    "value": 0.08
+                                },
+                                {
+                                    "name": "MEDICAL ASSISTANCE ADMINISTRAT",
+                                    "value": 0.25
+                                },
+                                {
+                                    "name": "PROTECTIVE SERVICES",
+                                    "value": 0.06
+                                },
+                                {
+                                    "name": "SAFETY-NET",
+                                    "value": 0.71
+                                },
+                                {
+                                    "name": "SHELTERS",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "SPECIAL PROJECTS",
+                                    "value": 0.05
+                                },
+                                {
+                                    "name": "STATE DOSS FRINGE BENEFITS",
+                                    "value": 0.19
+                                },
+                                {
+                                    "name": "STATE PREVENTIVE SERVICES",
+                                    "value": 0.58
+                                },
+                                {
+                                    "name": "WORK NOW",
+                                    "value": 0.12
+                                }
+                            ]
+                        },
+                        {
+                            "name": "TRANSPORTATION",
+                            "children": [
+                                {
+                                    "name": "ARTERIAL HIGHWAY REIMBURSEMENT",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "ARTERIAL MAINTENANCE",
+                                    "value": 0.01
+                                },
+                                {
+                                    "name": "CONSOLIDATED HIWAY IMPROVEMENT",
+                                    "value": 0.11
+                                },
+                                {
+                                    "name": "STATE OPERATING ASSISTANCE BUS",
+                                    "value": 0.16
+                                },
+                                {
+                                    "name": "STATE OPERATING ASSISTANCE FERRY",
+                                    "value": 0.06
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "TAXES",
+                    "children": [
+                        {
+                            "name": "INCOME TAXES",
+                            "children": [
+                                {
+                                    "name": "BUSINESS INCOME TAX",
+                                    "value": 5.8
+                                },
+                                {
+                                    "name": "GENERAL CORPORATION TAX",
+                                    "value": 7.08
+                                },
+                                {
+                                    "name": "PERSONAL INCOME TAX",
+                                    "value": 16.24
+                                },
+                                {
+                                    "name": "UTILITY TAX",
+                                    "value": 0.46
+                                }
+                            ]
+                        },
+                        {
+                            "name": "OTHER",
+                            "value": 5.75
+                        },
+                        {
+                            "name": "PROPERTY TAXES",
+                            "value": 34.71
+                        },
+                        {
+                            "name": "SALES TAXES",
+                            "value": 10.3
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
